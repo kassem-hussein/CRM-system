@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:lang(ar){
+    font-family: 'Cairo',Arial, Helvetica, sans-serif;
+}
+*:lang(en){
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+}
+.active-link{
+   @apply bg-orange-500 w-full p-2;
+}
+a{
+    text-decoration: none;
+}
+aside a{
+    color: white;
+}
+li{
+    list-style: none;
+}
+th,td,tr{
+    @apply border;
+    text-align: center;
+    padding: 2px;
+}
+input,select{
+    @apply border p-2 rounded
+}
+label[required]::after{
+    content: '*';
+    @apply text-red-800;
+}
+
+
+#alert-title:lang(ar){
+    font-weight: 700;
+}
+.error{
+    font-size: 14px;
+    @apply text-red-800;
+}
+.group:hover  > div{
+    display: flex !important;
+}
+.history{
+    padding: 6px 12px;
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    color: #000;
+    font-weight: 500;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+li.active-link a:hover{
+    color: white;
+}
+
+
+@media print {
+    #btn-print{
+        display: none;
+    }
+}
