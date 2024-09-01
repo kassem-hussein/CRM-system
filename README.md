@@ -10,11 +10,14 @@
         composer install
 ### 3-  npm install to install vite and tailwind
         npm install
-### 4 - Run migrations 
+### 4 - Run migrations
         php artisan migrate
 
 ### 5 - make database seed using 
         php artisan db:seed
+### User 
+username: admin
+password:admin
         
         
     
