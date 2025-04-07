@@ -12,9 +12,9 @@ Develop an integrated management system that streamlines the organization and tr
 
 ### 5 - make database seed using 
         php artisan db:seed
-### User 
-username: admin
-password:admin
+#### User 
+    username  admin
+    password  admin
         
         
     
