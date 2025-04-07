@@ -1,8 +1,5 @@
-# CRM system using laravel 
-- provide solution to managment Contacts, Customers , Leads , activities , Opportunities and tasks 
-- provide Authentication and Authorization 
-- Provide Languages (Arabic,English)
-- Provide Easy UI that simple to use 
+# Solution Overview
+Develop an integrated management system that streamlines the organization and tracking of Contacts, Customers, Leads, Activities, Opportunities, and Tasks. The system will include robust user authentication and authorization features, multilingual support (Arabic and English), and an intuitive user interface designed for simplicity and ease of use.
 
 ## How can I install  ? 
 - First clone the Reposirty 
