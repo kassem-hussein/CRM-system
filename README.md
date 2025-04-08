@@ -2,7 +2,8 @@
 Develop an integrated management system that streamlines the organization and tracking of Contacts, Customers, Leads, Activities, Opportunities, and Tasks. The system will include robust user authentication and authorization features, multilingual support (Arabic and English), and an intuitive user interface designed for simplicity and ease of use.
 
 ## How can I install  ? 
-- First clone the Reposirty 
+### 1 - Clone Reposirty
+        git clone https://github.com/kassem-hussein/CRM-system
 ### 2 - Composer Install to install all dependencies
         composer install
 ### 3-  npm install to install vite and tailwind
