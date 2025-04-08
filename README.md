@@ -18,4 +18,8 @@ Develop an integrated management system that streamlines the organization and tr
     password  admin
     
     
-
+## Technologies Used
+- **Backend Framework**: Laravel
+- **Middleware**: Authentication, Role-Based Access Control
+- **Frontend**: Blade, Tailwind
+- **Database**: Relational Database (MySQL)
